@@ -1,0 +1,16 @@
+{% extends 'lovelyhalf/base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}
+    <div class="d-flex flex-column">
+        <div class="d-inline-flex p-2">
+            <h1>Посмотрим, на сколько хорошо ты знаешь наши отношения</h1>
+        </div>
+        <div class="d-inline-flex p-3 justify-content-center">
+            <a href="{% url 'lovelyhalf:vote_page' '1' %}"><button type="button" class="btn btn-secondary">Проверяй</button></a>
+        </div>
+    </div>
+{% endblock %}

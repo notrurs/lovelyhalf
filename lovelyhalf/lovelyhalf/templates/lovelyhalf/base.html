@@ -1,0 +1,15 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'lovelyhalf/css/style.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static "lovelyhalf/favicon.png" %}">
+</head>
+<body class="d-flex justify-content-center align-items-center">
+{% block body %}{% endblock %}
+</body>
+</html>

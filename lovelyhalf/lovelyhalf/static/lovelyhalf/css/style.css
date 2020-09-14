@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/love_pattern.jpg");
+    height: 100vh;
+}
+
+.bg-light-form{
+    background: rgba(255, 255, 255, 0.3)!important;
+    border-radius: 7px;
+}
