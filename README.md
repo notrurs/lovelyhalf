@@ -6,7 +6,6 @@ A simple poll site for your half
 ## Getting Started
 
 ### Installing
-The game is alpha state, but if you want to play, you need to do these steps below.
 
 Step 1. Clone this repo
 
